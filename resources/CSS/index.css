@@ -1,0 +1,66 @@
+body{
+    background: url(file:///home/ezo/Desktop/ExampleProject/resources/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg
+    );
+    background-size:cover;
+}
+.Page-Header{
+    height: 80px;
+    border-radius: 20px;
+}
+#Button-Header {
+    float: right;
+    border-radius: 4px;
+    background-color:inherit;
+    border: none;
+    color:rgb(4, 30, 46);
+    text-align: center;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: -60px 10px 0px 0px;
+  }
+  
+  #Button-Header span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #Button-Header span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #Button-Header:hover span {
+    padding-right: 25px;
+  }
+  
+  #Button-Header:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+#Title-header{
+    text-align: center;
+    padding-top: 30px;
+    margin: -10px 400px 0px 400px;
+    padding-right: 30px;
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(4, 30, 46);
+}
+#Title-header:hover{
+    color:whitesmoke;
+}
+#logo{
+    float: left;
+    margin:8px 0px 0px 10px;
+    
+}
