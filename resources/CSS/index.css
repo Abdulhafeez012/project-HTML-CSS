@@ -1,6 +1,5 @@
 body{
-    background: url(file:///home/ezo/Desktop/ExampleProject/resources/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg
-    );
+  background-image: url(file:///home/ezo/Desktop/ExampleProject/project-HTML-CSS/resources/background-image.jpg);
     background-size:cover;
 }
 .Page-Header{
