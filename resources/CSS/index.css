@@ -22,27 +22,25 @@ body{
     margin: -60px 10px -30px 0px;
   }
   
-  #Button-Header span {
+#Button-Header > span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  #Button-Header span:after {
+#Button-Header > span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  #Button-Header:hover span {
+  }  
+#Button-Header:hover span {
     padding-right: 25px;
   }
-  
-  #Button-Header:hover span:after {
+#Button-Header:hover span:after {
     opacity: 1;
     right: 0;
   }
@@ -55,45 +53,116 @@ body{
     font-family:'Courier New', Courier, monospace;
     color:rgb(4, 30, 46);
 }
-#Title-header:hover{
+#Title-header:hover{ text-align: center;
     color:whitesmoke;
-}
+  }
 #logo{
     float: left;
     margin:8px 0px 0px 10px;   
-} 
+  }  
 #logo:hover{
   box-shadow: 0 0 5px 4px rgba(5, 34, 44, 0.5);
-}
+  }
 .article-main{
   background-color: rgba(19, 18, 18, 0.63);
   border-radius: 20px;
   margin-top: 100px;
   margin-left: 500px;
-
-}
+  }
 .section1-article{
   text-align: center;
-}
+  } 
 #image-article{
   width: 200px;
   height: auto;
   transition: transform .9s;
-}
+  }
 #image-article:hover{
   transform: scale(1.5);
-}
+  }
 #Head-article{
   font-style: oblique;
   font-size: 28px;
   font-family:'Courier New', Courier, monospace;
   color:rgb(223, 213, 213);
-}
+  }
 #Par-article{
   font-style: oblique;
   font-family:'Courier New', Courier, monospace;
   text-align: left;
   padding-bottom: 20px;
+  padding-left: 10px;
   color:rgb(223, 213, 213);
   font-size: 20px;
+  }
+.footer-page{
+  text-align: center;
+  background-color:rgba(19, 18, 18, 0.63);
+  border-radius: 20px;
+}
+#head-footer{
+  color:rgb(223, 213, 213);
+  font-style: oblique;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.side-bar-main{
+  background-color: rgba(19, 18, 18, 0.63);
+  border-radius: 20px;
+  float:left;
+}
+#list-items{ 
+  padding-left: 25px;                 
+}
+#button-items{
+    border-radius: 4px;
+    background-color:inherit;
+    border: none;
+    color:rgb(235, 246, 252);
+    text-align: center;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#button-items > span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+#button-items > span:after {
+  content:'\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}  
+#button-items:hover > span {
+  padding-right: 25px;
+}
+#button-items:hover > span:after {
+  opacity: 1;
+  bottom: 0;
+}
+a:link , a:visited{
+  color:whitesmoke;
+  text-decoration: none;
+}
+a:hover{
+  color: rgba(44, 68, 202, 0.986);
+  text-decoration: none;
+}
+a:active{
+  color:rgba(44, 68, 202, 0.986);
+  text-decoration: none;
+}
+#list-items p{
+  color:rgb(131, 59, 247);
 }
