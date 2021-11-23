@@ -37,29 +37,53 @@
                 <div class="d-sm-flex flex-row-reverse bd-highlight pt-4">
                     <div>
                         <!-- article section -->
-                        <div class="d-sm-flex flex-row-reverse bg-secondary rounded-start rounded-end p-2">
+                        <div class="d-sm-flex flex-row-reverse p-2 bg-secondary bg-opacity-75 rounded-end rounded-start">
                             <div> 
                                 <h1>
-                                <span class="text-primary ">ONLY MUSIC</span>
+                                <span class="text-primary">ONLY MUSIC</span>
                                 <br>
-                                <span class="text-danger ">NOTHING ELSE</span>
+                                <span class="text-danger">NOTHING ELSE</span>
                                 </h1>
-                                <p class="lh-lg text-start lead">
-                                    Sony’s intelligent industry-leading noise canceling headphones with 
+                                <p class="lh-base text-start text-light fs-4">
+                                </form>                Sony’s intelligent industry-leading noise canceling headphones with 
                                     premium sound elevate your listening experience with the ability to 
                                     personalize and control everything you hear.
                                 </p>
                            </div>
-                            <img class="img-fluid w-50 h-50"  
+                            <img class="img-fluid w-50 h-50 align-self-center"  
                             src="../resources/headphones-images-removebg-preview.png"
                             alt="Headsets"  >
                         </div>
                         <!-- form section -->
-                        <div class="container-fluid">
-                            <div class="form"> 
-
+                        <form action="#">
+                            <!-- User input -->
+                            <div class="d-flex justify-content-start">
+                                <div class="d-inline-flex flex-column mt-3">
+                                    <div class="input-group mt-2">
+                                        <span class="input-group-text mt-3">Your Text Here</span>
+                                        <input type="text" class="form-control mt-3" id="TextArea"> 
+                                    </div>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">Color of Text</span>
+                                        <input type="color" class="form-control form-control-color" id="textcolor">
+                                    </div>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">Size of Text</span>
+                                        <input type="number" class="form-control form-control" id="textSize">
+                                    </div>
+                                    <div class="input-group mt-3">
+                                        <span class="input-group-text">Times Of Repeat</span>
+                                        <input type="number" class="form-control form-control" id="textRepeat">
+                                    </div>
+                                    <button class="btn btn-primary mt-3" type="submit">Submit</button>
+                                </div>
                             </div>
-                        </div>
+                            <!-- Display output -->
+                            <div class="d-flex justify-content-end">
+                                <div class="d-inline-flex flex-column mt-3 bg-secondary">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                     <!-- SideBar section -->
                     <div class="container-fluid"></div>
